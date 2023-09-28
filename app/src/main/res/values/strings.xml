@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">InstaSic</string>
+    <string name="welcome">Your profile has been set up.\nLet\'s explore, connect, and share your stories with the community.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

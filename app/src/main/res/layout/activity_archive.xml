@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".activities.ArchiveActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarArchive"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Archives"
+        app:titleTextColor="@color/black_121212"
+        app:navigationIcon="@drawable/baseline_arrow_back_ios_24">
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/btnStorySwap"
+            android:visibility="gone"
+            android:padding="12dp"
+            android:layout_gravity="end"
+            android:src="@drawable/story"/>
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/btnPostSwap"
+            android:padding="13dp"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:src="@drawable/post"/>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerPostArchive"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerStoryArchive"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>
