@@ -1,5 +1,4 @@
-# InstarSic
-Online social networking Android application
+# InstarSic - Online social networking Android application
 Author: HuChi
 Created : Jun 23th 2023
 - Technologies: Android Studio, Java, Firebase
